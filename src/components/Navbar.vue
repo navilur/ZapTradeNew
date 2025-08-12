@@ -46,7 +46,7 @@ const toggleSearch = () => {
               ]"
             >
               {{ nav.title }}
-              <img v-if="nav.subMenu" src="../assets/img/arrowDown.svg" alt="Dropdown" />
+              <img v-if="nav.subMenu" src="@/assets/img/arrowDown.svg" alt="Dropdown" />
             </RouterLink>
 
             <ul
@@ -149,7 +149,7 @@ const toggleSearch = () => {
               class="flex items-center justify-between cursor-pointer hover:text-gray-300"
             >
               {{ nav.title }}
-              <img src="../assets/img/arrowDown.svg" alt="Dropdown" class="w-4 h-4" />
+              <img src="@/assets/img/arrowDown.svg" alt="Dropdown" class="w-4 h-4" />
             </div>
 
             <RouterLink v-else :to="nav.link" class="block hover:text-gray-300" @click="toggleMenu">
