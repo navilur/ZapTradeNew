@@ -44,7 +44,7 @@ import bg from '@/assets/img/aboutBg.png'
   max-width: 591px;
   width: 100%;
   height: 354px;
-  background: url(../assets/img/securitybg.png) no-repeat;
+  background: url(../assets/img/securityBg.png) no-repeat;
   background-size: 100% 100%;
   padding: 41px 91px 50px 35px;
 }
@@ -52,7 +52,7 @@ import bg from '@/assets/img/aboutBg.png'
   max-width: 363px;
   width: 100%;
   height: 354px;
-  background: url(../assets/img/speedbg.png) no-repeat;
+  background: url(../assets/img/speedBg.png) no-repeat;
   background-size: 100% 100%;
   padding: 40px 23px 35px 35px;
 }
@@ -60,7 +60,7 @@ import bg from '@/assets/img/aboutBg.png'
   max-width: 365px;
   width: 100%;
   height: 354px;
-  background: url(../assets/img/supportbg.png) no-repeat;
+  background: url(../assets/img/supportBg.png) no-repeat;
   background-size: cover;
   padding: 41px 35px;
 }
